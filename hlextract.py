@@ -198,7 +198,6 @@ def extract_items():
                     item_path, hl.HLFindType.HL_FIND_ALL)
         except HLError:
             print(item_path + " not found in package.")
-            raise
             continue
 
         if not args.silent:
